@@ -1,0 +1,1029 @@
+[
+  {
+    "name": "[Ljava.lang.Object;"
+  },
+  {
+    "name": "android.os.Build"
+  },
+  {
+    "name": "ch.qos.logback.classic.encoder.PatternLayoutEncoder",
+    "queryAllPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.joran.SerializedModelConfigurator",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.util.DefaultJoranConfigurator",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.core.FileAppender",
+    "queryAllPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "setAppend",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setFile",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.core.OutputStreamAppender",
+    "methods": [
+      {
+        "name": "setEncoder",
+        "parameterTypes": [
+          "ch.qos.logback.core.encoder.Encoder"
+        ]
+      },
+      {
+        "name": "setImmediateFlush",
+        "parameterTypes": [
+          "boolean"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.core.encoder.Encoder",
+    "methods": [
+      {
+        "name": "valueOf",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.core.encoder.LayoutWrappingEncoder",
+    "methods": [
+      {
+        "name": "setParent",
+        "parameterTypes": [
+          "ch.qos.logback.core.spi.ContextAware"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.core.pattern.PatternLayoutEncoderBase",
+    "methods": [
+      {
+        "name": "setPattern",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.core.spi.ContextAware",
+    "methods": [
+      {
+        "name": "valueOf",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.McpClientTest",
+    "allDeclaredFields": true,
+    "allDeclaredClasses": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "testRunClient",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.GeocodeRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.GeocodeRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.GetWeatherRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.GetWeatherRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.IpRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.IpRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.ReverseGeocodeRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.ReverseGeocodeRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.StaticMapRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.StaticMapRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.StaticMapTest",
+    "allDeclaredFields": true,
+    "allDeclaredClasses": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "labels",
+        "parameterTypes": []
+      },
+      {
+        "name": "markers",
+        "parameterTypes": []
+      },
+      {
+        "name": "paths",
+        "parameterTypes": []
+      },
+      {
+        "name": "simpleMap",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.github.smiley4.schemakenerator.core.annotations.Description",
+    "methods": [
+      {
+        "name": "description",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CallToolRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CallToolRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CallToolResult",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CallToolResult$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.InitializeRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.InitializeRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.InitializeResult",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.InitializeResult$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CancelledNotification",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CancelledNotification$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.InitializedNotification",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.InitializedNotification$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.JSONRPCNotification",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.JSONRPCNotification$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.JSONRPCRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.JSONRPCRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.JSONRPCResponse",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.JSONRPCResponse$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListToolsRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListToolsRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListToolsResult",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListToolsResult$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.PingRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.PingRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.TextContent",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.TextContent$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.client.StdioClientTransport$start$3",
+    "fields": [
+      {
+        "name": "label"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.client.StdioClientTransport$start$3$writeJob$1",
+    "fields": [
+      {
+        "name": "label"
+      }
+    ]
+  },
+  {
+    "name": "java.lang.Class",
+    "methods": [
+      {
+        "name": "getModule",
+        "parameterTypes": []
+      },
+      {
+        "name": "getPermittedSubclasses",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRecordComponents",
+        "parameterTypes": []
+      },
+      {
+        "name": "isRecord",
+        "parameterTypes": []
+      },
+      {
+        "name": "isSealed",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "java.lang.ClassValue"
+  },
+  {
+    "name": "java.lang.Enum"
+  },
+  {
+    "name": "java.lang.Module",
+    "methods": [
+      {
+        "name": "getDescriptor",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "java.lang.Object",
+    "allDeclaredFields": true
+  },
+  {
+    "name": "java.lang.String"
+  },
+  {
+    "name": "java.lang.Thread",
+    "fields": [
+      {
+        "name": "threadLocalRandomProbe"
+      }
+    ]
+  },
+  {
+    "name": "java.lang.Throwable",
+    "allDeclaredFields": true
+  },
+  {
+    "name": "java.lang.annotation.Annotation",
+    "allDeclaredFields": true,
+    "allDeclaredClasses": true,
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "java.lang.invoke.MethodHandle"
+  },
+  {
+    "name": "java.lang.module.ModuleDescriptor",
+    "methods": [
+      {
+        "name": "name",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "java.lang.reflect.Executable",
+    "methods": [
+      {
+        "name": "getParameters",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "java.lang.reflect.Method"
+  },
+  {
+    "name": "java.lang.reflect.Parameter",
+    "methods": [
+      {
+        "name": "getName",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "java.security.SecureRandomParameters"
+  },
+  {
+    "name": "java.util.HashSet"
+  },
+  {
+    "name": "java.util.LinkedHashSet"
+  },
+  {
+    "name": "java.util.concurrent.ArrayBlockingQueue"
+  },
+  {
+    "name": "java.util.concurrent.ForkJoinTask",
+    "fields": [
+      {
+        "name": "aux"
+      },
+      {
+        "name": "status"
+      }
+    ]
+  },
+  {
+    "name": "java.util.concurrent.atomic.AtomicBoolean",
+    "fields": [
+      {
+        "name": "value"
+      }
+    ]
+  },
+  {
+    "name": "java.util.concurrent.atomic.AtomicReference",
+    "fields": [
+      {
+        "name": "value"
+      }
+    ]
+  },
+  {
+    "name": "java.util.concurrent.atomic.Striped64",
+    "fields": [
+      {
+        "name": "base"
+      },
+      {
+        "name": "cellsBusy"
+      }
+    ]
+  },
+  {
+    "name": "java.util.concurrent.locks.AbstractOwnableSynchronizer"
+  },
+  {
+    "name": "java.util.concurrent.locks.AbstractQueuedSynchronizer"
+  },
+  {
+    "name": "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject"
+  },
+  {
+    "name": "java.util.concurrent.locks.ReentrantLock"
+  },
+  {
+    "name": "java.util.concurrent.locks.ReentrantLock$NonfairSync"
+  },
+  {
+    "name": "java.util.concurrent.locks.ReentrantLock$Sync"
+  },
+  {
+    "name": "jdk.internal.misc.Unsafe"
+  },
+  {
+    "name": "kotlin.Annotation"
+  },
+  {
+    "name": "kotlin.Any"
+  },
+  {
+    "name": "kotlin.Boolean"
+  },
+  {
+    "name": "kotlin.Int"
+  },
+  {
+    "name": "kotlin.Metadata",
+    "queryAllDeclaredMethods": true,
+    "queryAllPublicMethods": true,
+    "methods": [
+      {
+        "name": "bv",
+        "parameterTypes": []
+      },
+      {
+        "name": "d1",
+        "parameterTypes": []
+      },
+      {
+        "name": "d2",
+        "parameterTypes": []
+      },
+      {
+        "name": "k",
+        "parameterTypes": []
+      },
+      {
+        "name": "mv",
+        "parameterTypes": []
+      },
+      {
+        "name": "pn",
+        "parameterTypes": []
+      },
+      {
+        "name": "xi",
+        "parameterTypes": []
+      },
+      {
+        "name": "xs",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "kotlin.SafePublicationLazyImpl",
+    "fields": [
+      {
+        "name": "_value"
+      }
+    ]
+  },
+  {
+    "name": "kotlin.String"
+  },
+  {
+    "name": "kotlin.annotation.MustBeDocumented",
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "kotlin.annotation.Retention",
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "kotlin.annotation.Target",
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "kotlin.coroutines.jvm.internal.BaseContinuationImpl"
+  },
+  {
+    "name": "kotlin.jvm.internal.DefaultConstructorMarker"
+  },
+  {
+    "name": "kotlin.reflect.jvm.internal.ReflectionFactoryImpl",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "kotlin.reflect.jvm.internal.impl.resolve.scopes.DescriptorKindFilter",
+    "allPublicFields": true
+  },
+  {
+    "name": "kotlinx.coroutines.CancellableContinuationImpl",
+    "fields": [
+      {
+        "name": "_decisionAndIndex$volatile"
+      },
+      {
+        "name": "_parentHandle$volatile"
+      },
+      {
+        "name": "_state$volatile"
+      }
+    ]
+  },
+  {
+    "name": "kotlinx.coroutines.CancelledContinuation",
+    "fields": [
+      {
+        "name": "_resumed$volatile"
+      }
+    ]
+  },
+  {
+    "name": "kotlinx.coroutines.CompletedExceptionally",
+    "fields": [
+      {
+        "name": "_handled$volatile"
+      }
+    ]
+  },
+  {
+    "name": "kotlinx.coroutines.EventLoopImplBase",
+    "fields": [
+      {
+        "name": "_delayed$volatile"
+      },
+      {
+        "name": "_isCompleted$volatile"
+      },
+      {
+        "name": "_queue$volatile"
+      }
+    ]
+  },
+  {
+    "name": "kotlinx.coroutines.JobSupport",
+    "fields": [
+      {
+        "name": "_parentHandle$volatile"
+      },
+      {
+        "name": "_state$volatile"
+      }
+    ]
+  },
+  {
+    "name": "kotlinx.coroutines.JobSupport$Finishing",
+    "fields": [
+      {
+        "name": "_exceptionsHolder$volatile"
+      },
+      {
+        "name": "_isCompleting$volatile"
+      },
+      {
+        "name": "_rootCause$volatile"
+      }
+    ]
+  },
+  {
+    "name": "kotlinx.coroutines.channels.BufferedChannel",
+    "fields": [
+      {
+        "name": "_closeCause$volatile"
+      },
+      {
+        "name": "bufferEnd$volatile"
+      },
+      {
+        "name": "bufferEndSegment$volatile"
+      },
+      {
+        "name": "closeHandler$volatile"
+      },
+      {
+        "name": "completedExpandBuffersAndPauseFlag$volatile"
+      },
+      {
+        "name": "receiveSegment$volatile"
+      },
+      {
+        "name": "receivers$volatile"
+      },
+      {
+        "name": "sendSegment$volatile"
+      },
+      {
+        "name": "sendersAndCloseStatus$volatile"
+      }
+    ]
+  },
+  {
+    "name": "kotlinx.coroutines.internal.ConcurrentLinkedListNode",
+    "fields": [
+      {
+        "name": "_next$volatile"
+      },
+      {
+        "name": "_prev$volatile"
+      }
+    ]
+  },
+  {
+    "name": "kotlinx.coroutines.internal.DispatchedContinuation",
+    "fields": [
+      {
+        "name": "_reusableCancellableContinuation$volatile"
+      }
+    ]
+  },
+  {
+    "name": "kotlinx.coroutines.internal.LimitedDispatcher",
+    "fields": [
+      {
+        "name": "runningWorkers$volatile"
+      }
+    ]
+  },
+  {
+    "name": "kotlinx.coroutines.internal.LockFreeLinkedListNode",
+    "fields": [
+      {
+        "name": "_next$volatile"
+      },
+      {
+        "name": "_prev$volatile"
+      },
+      {
+        "name": "_removedRef$volatile"
+      }
+    ]
+  },
+  {
+    "name": "kotlinx.coroutines.internal.LockFreeTaskQueue",
+    "fields": [
+      {
+        "name": "_cur$volatile"
+      }
+    ]
+  },
+  {
+    "name": "kotlinx.coroutines.internal.LockFreeTaskQueueCore",
+    "fields": [
+      {
+        "name": "_next$volatile"
+      },
+      {
+        "name": "_state$volatile"
+      }
+    ]
+  },
+  {
+    "name": "kotlinx.coroutines.internal.Segment",
+    "fields": [
+      {
+        "name": "cleanedAndPointers$volatile"
+      }
+    ]
+  },
+  {
+    "name": "kotlinx.coroutines.internal.StackTraceRecoveryKt"
+  },
+  {
+    "name": "kotlinx.coroutines.internal.ThreadSafeHeap",
+    "fields": [
+      {
+        "name": "_size$volatile"
+      }
+    ]
+  },
+  {
+    "name": "kotlinx.coroutines.scheduling.CoroutineScheduler",
+    "fields": [
+      {
+        "name": "_isTerminated$volatile"
+      },
+      {
+        "name": "controlState$volatile"
+      },
+      {
+        "name": "parkedWorkersStack$volatile"
+      }
+    ]
+  },
+  {
+    "name": "kotlinx.coroutines.scheduling.CoroutineScheduler$Worker",
+    "fields": [
+      {
+        "name": "workerCtl$volatile"
+      }
+    ]
+  },
+  {
+    "name": "kotlinx.coroutines.scheduling.WorkQueue",
+    "fields": [
+      {
+        "name": "blockingTasksInBuffer$volatile"
+      },
+      {
+        "name": "consumerIndex$volatile"
+      },
+      {
+        "name": "lastScheduledTask$volatile"
+      },
+      {
+        "name": "producerIndex$volatile"
+      }
+    ]
+  },
+  {
+    "name": "sun.security.provider.NativePRNG",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.security.SecureRandomParameters"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "sun.security.provider.SHA",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.ktor.network.selector.InterestSuspensionsMap",
+    "fields": [
+      {
+        "name": "readHandlerReference"
+      },
+      {
+        "name": "writeHandlerReference"
+      },
+      {
+        "name": "acceptHandlerReference"
+      },
+      {
+        "name": "connectHandlerReference"
+      }
+    ]
+  }
+]

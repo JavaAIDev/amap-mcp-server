@@ -11,52 +11,57 @@ import kotlinx.io.asSource
 import kotlinx.io.buffered
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.JsonPrimitive
+import kotlin.test.Test
+
+class McpClientTest {
+    @Test
+    fun testRunClient() {
+        runBlocking {
+            val process = ProcessBuilder("java", "-jar", "build/libs/amap-mcp-server-0.1.0-all.jar")
+                .start()
+
+            val transport = StdioClientTransport(
+                input = process.inputStream.asSource().buffered(),
+                output = process.outputStream.asSink().buffered()
+            )
+
+            val client = Client(
+                clientInfo = Implementation(name = "amap-client", version = "1.0.0"),
+            )
+
+            client.connect(transport)
 
 
-fun main(): Unit = runBlocking {
-    val process = ProcessBuilder("java", "-jar", "build/libs/amap-mcp-server-0.1.0-all.jar")
-        .start()
+            val toolsList = client.listTools()?.tools?.map { it.name }
+            println("Available Tools = $toolsList")
 
-    val transport = StdioClientTransport(
-        input = process.inputStream.asSource().buffered(),
-        output = process.outputStream.asSink().buffered()
-    )
-
-    val client = Client(
-        clientInfo = Implementation(name = "amap-client", version = "1.0.0"),
-    )
-
-    client.connect(transport)
-
-
-    val toolsList = client.listTools()?.tools?.map { it.name }
-    println("Available Tools = $toolsList")
-
-    val staticMapResult = client.callTool(
-        CallToolRequest(
-            name = "generateStaticMap",
-            arguments = JsonObject(
-                mapOf(
-                    "location" to JsonObject(
+            val staticMapResult = client.callTool(
+                CallToolRequest(
+                    name = "generateStaticMap",
+                    arguments = JsonObject(
                         mapOf(
-                            "lat" to JsonPrimitive("39.990464"),
-                            "lng" to JsonPrimitive("116.481485"),
+                            "location" to JsonObject(
+                                mapOf(
+                                    "lat" to JsonPrimitive("39.990464"),
+                                    "lng" to JsonPrimitive("116.481485"),
+                                )
+                            )
                         )
                     )
                 )
-            )
-        )
-    )?.content?.map { if (it is TextContent) it.text else it.toString() }
+            )?.content?.map { if (it is TextContent) it.text else it.toString() }
 
-    println(
-        "Static map: ${
-            staticMapResult?.joinToString(
-                separator = "\n",
-                prefix = "\n",
-                postfix = "\n"
+            println(
+                "Static map: ${
+                    staticMapResult?.joinToString(
+                        separator = "\n",
+                        prefix = "\n",
+                        postfix = "\n"
+                    )
+                }"
             )
-        }"
-    )
 
-    client.close()
+            client.close()
+        }
+    }
 }
