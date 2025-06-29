@@ -1,0 +1,65 @@
+name: Release
+
+permissions:
+  contents: write
+
+on:
+  push:
+    tags:
+      - v[0-9]+.*
+
+jobs:
+
+  build:
+    name: Build binary file on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ macos-latest, windows-latest, ubuntu-latest ]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: graalvm/setup-graalvm@v1
+        with:
+          java-version: '24'
+          distribution: 'graalvm-community'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@af1da67850ed9a4cedd57bfd976089dd991e2582
+
+      - name: Build
+        run: |
+          ./gradlew nativeCompile
+
+      - name: Upload binary
+        uses: actions/upload-artifact@v4
+        with:
+          name: amap-mcp-server-${{ matrix.os }}
+          path: |
+            build/native/nativeCompile/amap-mcp-server*
+            !build/native/nativeCompile/*.txt
+          retention-days: 1
+  release:
+    name: "Release"
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+
+      - name: Rename files
+        run: |
+          mkdir release-files
+          mv amap-mcp-server-windows-latest/amap-mcp-server.exe release-files/amap-mcp-server.exe
+          mv amap-mcp-server-macos-latest/amap-mcp-server release-files/amap-mcp-server-macos
+          mv amap-mcp-server-ubuntu-latest/amap-mcp-server release-files/amap-mcp-server-ubuntu
+
+      - name: Create a Github Release
+        uses: ncipollo/release-action@v1
+        with:
+          token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
+          body: ${{ github.ref_name }}
+          artifacts: "release-files/*"
+          generateReleaseNotes: true
