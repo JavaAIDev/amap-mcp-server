@@ -54,10 +54,10 @@ jobs:
       - name: Rename files
         run: |
           mkdir release-files
-          mv amap-mcp-server-windows-latest/amap-mcp-server.exe release-files/amap-mcp-server.exe
-          mv amap-mcp-server-macos-latest/amap-mcp-server release-files/amap-mcp-server-macos
-          mv amap-mcp-server-ubuntu-latest/amap-mcp-server release-files/amap-mcp-server-ubuntu
-          mv amap-mcp-server-windows-latest/amap-mcp-server*.jar release-files/amap-mcp-server.jar
+          mv amap-mcp-server-windows-latest/native/nativeCompile/amap-mcp-server.exe release-files/amap-mcp-server.exe
+          mv amap-mcp-server-macos-latest/native/nativeCompile/amap-mcp-server release-files/amap-mcp-server-macos
+          mv amap-mcp-server-ubuntu-latest/native/nativeCompile/amap-mcp-server release-files/amap-mcp-server-ubuntu
+          mv amap-mcp-server-ubuntu-latest/libs/amap-mcp-server-*-all.jar release-files/amap-mcp-server.jar
 
       - name: Create a Github Release
         uses: ncipollo/release-action@v1
