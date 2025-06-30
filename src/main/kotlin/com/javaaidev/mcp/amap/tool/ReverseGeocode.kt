@@ -27,7 +27,7 @@ data class ReverseGeocodeRequest(
     )
     val roadlevel: String? = null,
 ) : ApiRequest {
-    override fun apiSubPaths() = listOf("geocode", "geo")
+    override fun apiSubPaths() = listOf("v3", "geocode", "geo")
 
     override fun params(): Map<String, Any?> {
         return mapOf("address" to location, "radius" to radius)

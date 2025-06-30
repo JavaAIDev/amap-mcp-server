@@ -50,9 +50,9 @@ suspend fun HttpClient.amapApiGet(request: ApiRequest): String {
         url {
             protocol = URLProtocol.HTTPS
             host = "restapi.amap.com"
-            appendPathSegments("v3")
             appendPathSegments(request.apiSubPaths())
             parameters.append("key", getApiKey())
+            parameters.append("output", "JSON")
             request.params()
                 .mapValues { ParamValueUtils.getParamValue(it.value) }
                 .filterValues { it.isNotBlank() }

@@ -17,7 +17,7 @@ data class GetWeatherRequest(
     )
     val extensions: String? = null,
 ) : ApiRequest {
-    override fun apiSubPaths() = listOf("weather", "weatherInfo")
+    override fun apiSubPaths() = listOf("v3", "weather", "weatherInfo")
 
     override fun params(): Map<String, String> {
         return mapOf("city" to city, "extensions" to (extensions ?: ""))

@@ -42,6 +42,32 @@ object McpServer {
         }
 
         server.addTool(
+            name = "districtQuery",
+            description = """
+            行政区域查询是一类简单的 HTTP 接口，根据用户输入的搜索条件可以帮助用户快速的查找特定的行政区域信息。
+
+            例如：中国>山东省>济南市>历下区>舜华路街道（国>省>市>区>街道）。
+        """.trimIndent(),
+            inputSchema = toToolInput<DistrictQueryRequest>()
+        ) { request ->
+            val params = fromToolParameters<DistrictQueryRequest>(request.arguments)
+            val result = ApiInvoker.get(params)
+            CallToolResult(content = listOf(TextContent(result)))
+        }
+
+        server.addTool(
+            name = "poiSearchByText",
+            description = """
+            通过文本关键字搜索地点信息，文本可以是结构化地址，例如：北京市朝阳区望京阜荣街10号；也可以是 POI 名称，例如：首开广场；
+        """.trimIndent(),
+            inputSchema = toToolInput<PoiTextSearchRequest>()
+        ) { request ->
+            val params = fromToolParameters<PoiTextSearchRequest>(request.arguments)
+            val result = ApiInvoker.get(params)
+            CallToolResult(content = listOf(TextContent(result)))
+        }
+
+        server.addTool(
             name = "getWeather",
             description = """
             根据用户输入的 adcode，查询目标区域当前/未来的天气情况

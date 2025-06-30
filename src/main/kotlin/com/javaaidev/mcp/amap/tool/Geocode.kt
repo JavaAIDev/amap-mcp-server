@@ -11,7 +11,7 @@ data class GeocodeRequest(
     @Description("指定查询的城市。可选输入内容包括：指定城市的中文（如北京）、指定城市的中文全拼（beijing）、citycode（010）、adcode（110000），不支持县级市。当指定城市查询内容为空时，会进行全国范围内的地址转换检索。")
     val city: String? = null,
 ) : ApiRequest {
-    override fun apiSubPaths() = listOf("geocode", "geo")
+    override fun apiSubPaths() = listOf("v3", "geocode", "geo")
 
     override fun params(): Map<String, String> {
         return mapOf("address" to address, "city" to (city ?: ""))
