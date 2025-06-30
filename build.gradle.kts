@@ -38,7 +38,7 @@ tasks.test {
 }
 
 kotlin {
-    jvmToolchain(24)
+    jvmToolchain(11)
 }
 
 graalvmNative {
@@ -52,7 +52,7 @@ graalvmNative {
         buildArgs.add("-H:+ReportExceptionStackTraces")
     }
     agent {
-        enabled.set(true)
+        enabled.set(false)
         metadataCopy {
             inputTaskNames.add("run")
             inputTaskNames.add("test")
