@@ -31,7 +31,7 @@ jobs:
 
       - name: Build
         run: |
-          ./gradlew build
+          ./gradlew build --stacktrace
           ./gradlew nativeCompile
 
       - name: Upload binary
