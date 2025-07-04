@@ -1,3 +1,5 @@
+import io.github.classgraph.ClassGraph
+
 plugins {
     kotlin("jvm") version "2.2.0"
     kotlin("plugin.serialization") version "2.2.0"
@@ -60,4 +62,65 @@ graalvmNative {
             mergeWithExisting.set(true)
         }
     }
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("io.github.classgraph:classgraph:4.8.172")
+    }
+}
+
+tasks.register("generateConfig") {
+    doLast {
+        val runtimeClasspath = project.configurations.getByName("runtimeClasspath").resolve()
+            .map { it.absolutePath }
+        val classesPath =
+            project.layout.buildDirectory.dir("classes/kotlin/main").get().asFile.toURI().toURL()
+        val scanResult = ClassGraph()
+            .enableClassInfo()
+            .enableAnnotationInfo()
+            .overrideClasspath(runtimeClasspath + listOf(classesPath))
+            .acceptPackages("io.modelcontextprotocol.kotlin", "com.javaaidev.mcp.amap")
+            .scan()
+
+        val annotationName = "kotlinx.serialization.Serializable"
+        val classes = scanResult.getClassesWithAnnotation(annotationName).map { classInfo ->
+            classInfo.name
+        }
+        val reflectionConfig = classes.joinToString(",") {
+            """
+              {
+                "name": "$it",
+                "fields": [
+                  {
+                    "name": "Companion"
+                  }
+                ]
+              },
+              {
+                "name": "$it${'$'}Companion",
+                "methods": [
+                  {
+                    "name": "serializer",
+                    "parameterTypes": []
+                  }
+                ]
+              }
+            """.trimIndent()
+        }
+
+        val outputDir = project.layout.buildDirectory.dir("generated/config").get().asFile
+        outputDir.mkdirs()
+        val outputFile = File(outputDir, "reflect-config.txt")
+        outputFile.writeText(reflectionConfig)
+    }
+
+    dependsOn("classes")
+}
+
+tasks.named("build") {
+    dependsOn("generateConfig")
 }

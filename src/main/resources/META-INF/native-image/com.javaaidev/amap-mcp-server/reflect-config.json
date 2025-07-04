@@ -135,6 +135,2420 @@
     ]
   },
   {
+    "name": "com.javaaidev.mcp.amap.tool.BicyclingRoutePlanRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.BicyclingRoutePlanRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.BoldMode",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.BoldMode$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.BusRoutePlanRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.BusRoutePlanRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.CoordinateCovertRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.CoordinateCovertRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.DistrictQueryRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.DistrictQueryRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.DrivingRoutePlanRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.DrivingRoutePlanRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.ElectrobikeRoutePlanRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.ElectrobikeRoutePlanRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.GeoLocation",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.GeoLocation$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.GeocodeRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.GeocodeRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.GetWeatherRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.GetWeatherRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.InputTipsRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.InputTipsRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.IpRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.IpRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.LabelFont",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.LabelFont$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.LabelStyle",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.LabelStyle$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.Labels",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.Labels$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.LabelsGroup",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.LabelsGroup$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.MapScaleMode",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.MapScaleMode$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.MapSize",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.MapSize$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.MarkerSize",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.MarkerSize$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.MarkerStyle",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.MarkerStyle$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.Markers",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.Markers$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.MarkersGroup",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.MarkersGroup$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.PathStyle",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.PathStyle$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.Paths",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.Paths$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.PathsGroup",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.PathsGroup$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.PoiAroundSearchRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.PoiAroundSearchRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.PoiDetailSearchRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.PoiDetailSearchRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.PoiPolygonSearchRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.PoiPolygonSearchRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.PoiTextSearchRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.PoiTextSearchRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.ReverseGeocodeRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.ReverseGeocodeRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.StaticMapRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.StaticMapRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.TrafficMode",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.TrafficMode$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.WalkingRoutePlanRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "com.javaaidev.mcp.amap.tool.WalkingRoutePlanRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.BlobResourceContents",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.BlobResourceContents$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CallToolRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CallToolRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CallToolResult",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CallToolResult$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CallToolResultBase",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CallToolResultBase$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CancelledNotification",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CancelledNotification$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ClientCapabilities",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ClientCapabilities$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ClientCapabilities$Roots",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ClientCapabilities$Roots$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ClientNotification",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ClientNotification$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ClientResult",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ClientResult$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CompatibilityCallToolResult",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CompatibilityCallToolResult$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CompleteRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CompleteRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CompleteRequest$Argument",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CompleteRequest$Argument$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CompleteResult",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CompleteResult$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CompleteResult$Completion",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CompleteResult$Completion$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CreateMessageRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CreateMessageRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CreateMessageRequest$IncludeContext",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CreateMessageRequest$IncludeContext$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CreateMessageResult",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CreateMessageResult$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CustomMeta",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CustomMeta$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CustomRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.CustomRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.EmbeddedResource",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.EmbeddedResource$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.EmptyRequestResult",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.EmptyRequestResult$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ErrorCode",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ErrorCode$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ErrorCode$Defined",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ErrorCode$Defined$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ErrorCode$Unknown",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ErrorCode$Unknown$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.GetPromptRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.GetPromptRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.GetPromptResult",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.GetPromptResult$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ImageContent",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ImageContent$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Implementation",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Implementation$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.InitializeRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.InitializeRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.InitializeResult",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.InitializeResult$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.InitializedNotification",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.InitializedNotification$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.JSONRPCError",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.JSONRPCError$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.JSONRPCMessage",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.JSONRPCMessage$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.JSONRPCNotification",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.JSONRPCNotification$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.JSONRPCRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.JSONRPCRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.JSONRPCResponse",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.JSONRPCResponse$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListPromptsRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListPromptsRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListPromptsResult",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListPromptsResult$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListResourceTemplatesRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListResourceTemplatesRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListResourceTemplatesResult",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListResourceTemplatesResult$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListResourcesRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListResourcesRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListResourcesResult",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListResourcesResult$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListRootsRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListRootsRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListRootsResult",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListRootsResult$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListToolsRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListToolsRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListToolsResult",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ListToolsResult$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.LoggingLevel",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.LoggingLevel$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.LoggingMessageNotification",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.LoggingMessageNotification$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.LoggingMessageNotification$SetLevelRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.LoggingMessageNotification$SetLevelRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Method",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Method$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Method$Custom",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Method$Custom$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Method$Defined",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Method$Defined$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ModelHint",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ModelHint$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ModelPreferences",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ModelPreferences$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Notification",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Notification$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.PaginatedRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.PaginatedRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.PaginatedResult",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.PaginatedResult$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.PingRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.PingRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Progress",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Progress$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ProgressBase",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ProgressBase$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ProgressNotification",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ProgressNotification$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Prompt",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Prompt$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.PromptArgument",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.PromptArgument$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.PromptListChangedNotification",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.PromptListChangedNotification$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.PromptMessage",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.PromptMessage$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.PromptMessageContent",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.PromptMessageContent$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.PromptMessageContentTextOrImage",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.PromptMessageContentTextOrImage$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.PromptReference",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.PromptReference$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ReadResourceRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ReadResourceRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ReadResourceResult",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ReadResourceResult$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Reference",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Reference$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Request",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Request$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.RequestId",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.RequestId$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.RequestId$NumberId",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.RequestId$NumberId$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.RequestId$StringId",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.RequestId$StringId$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.RequestResult",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.RequestResult$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Resource",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Resource$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ResourceContents",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ResourceContents$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ResourceListChangedNotification",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ResourceListChangedNotification$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ResourceReference",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ResourceReference$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ResourceTemplate",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ResourceTemplate$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ResourceUpdatedNotification",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ResourceUpdatedNotification$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Role",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Role$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Root",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Root$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.RootsListChangedNotification",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.RootsListChangedNotification$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.SamplingMessage",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.SamplingMessage$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ServerCapabilities",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ServerCapabilities$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ServerCapabilities$Prompts",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ServerCapabilities$Prompts$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ServerCapabilities$Resources",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ServerCapabilities$Resources$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ServerCapabilities$Tools",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ServerCapabilities$Tools$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ServerNotification",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ServerNotification$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ServerResult",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ServerResult$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.StopReason",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.StopReason$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.StopReason$EndTurn",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.StopReason$EndTurn$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.StopReason$MaxTokens",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.StopReason$MaxTokens$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.StopReason$Other",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.StopReason$Other$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.StopReason$StopSequence",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.StopReason$StopSequence$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.SubscribeRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.SubscribeRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.TextContent",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.TextContent$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.TextResourceContents",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.TextResourceContents$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Tool",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Tool$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Tool$Input",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.Tool$Input$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ToolListChangedNotification",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.ToolListChangedNotification$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.UnknownContent",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.UnknownContent$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.UnknownMethodRequestOrNotification",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.UnknownMethodRequestOrNotification$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.UnknownReference",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.UnknownReference$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.UnknownResourceContents",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.UnknownResourceContents$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.UnsubscribeRequest",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.UnsubscribeRequest$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.WithMeta",
+    "fields": [
+      {
+        "name": "Companion"
+      }
+    ]
+  },
+  {
+    "name": "io.modelcontextprotocol.kotlin.sdk.WithMeta$Companion",
+    "methods": [
+      {
+        "name": "serializer",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
     "name": "com.javaaidev.mcp.amap.tool.GeocodeRequest",
     "fields": [
       {
@@ -263,227 +2677,6 @@
     "methods": [
       {
         "name": "description",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.CallToolRequest",
-    "fields": [
-      {
-        "name": "Companion"
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.CallToolRequest$Companion",
-    "methods": [
-      {
-        "name": "serializer",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.CallToolResult",
-    "fields": [
-      {
-        "name": "Companion"
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.CallToolResult$Companion",
-    "methods": [
-      {
-        "name": "serializer",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.InitializeRequest",
-    "fields": [
-      {
-        "name": "Companion"
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.InitializeRequest$Companion",
-    "methods": [
-      {
-        "name": "serializer",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.InitializeResult",
-    "fields": [
-      {
-        "name": "Companion"
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.InitializeResult$Companion",
-    "methods": [
-      {
-        "name": "serializer",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.CancelledNotification",
-    "fields": [
-      {
-        "name": "Companion"
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.CancelledNotification$Companion",
-    "methods": [
-      {
-        "name": "serializer",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.InitializedNotification",
-    "fields": [
-      {
-        "name": "Companion"
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.InitializedNotification$Companion",
-    "methods": [
-      {
-        "name": "serializer",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.JSONRPCNotification",
-    "fields": [
-      {
-        "name": "Companion"
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.JSONRPCNotification$Companion",
-    "methods": [
-      {
-        "name": "serializer",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.JSONRPCRequest",
-    "fields": [
-      {
-        "name": "Companion"
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.JSONRPCRequest$Companion",
-    "methods": [
-      {
-        "name": "serializer",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.JSONRPCResponse",
-    "fields": [
-      {
-        "name": "Companion"
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.JSONRPCResponse$Companion",
-    "methods": [
-      {
-        "name": "serializer",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.ListToolsRequest",
-    "fields": [
-      {
-        "name": "Companion"
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.ListToolsRequest$Companion",
-    "methods": [
-      {
-        "name": "serializer",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.ListToolsResult",
-    "fields": [
-      {
-        "name": "Companion"
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.ListToolsResult$Companion",
-    "methods": [
-      {
-        "name": "serializer",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.PingRequest",
-    "fields": [
-      {
-        "name": "Companion"
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.PingRequest$Companion",
-    "methods": [
-      {
-        "name": "serializer",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.TextContent",
-    "fields": [
-      {
-        "name": "Companion"
-      }
-    ]
-  },
-  {
-    "name": "io.modelcontextprotocol.kotlin.sdk.TextContent$Companion",
-    "methods": [
-      {
-        "name": "serializer",
         "parameterTypes": []
       }
     ]
