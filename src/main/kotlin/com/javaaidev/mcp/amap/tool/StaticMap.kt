@@ -8,9 +8,9 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class GeoLocation(
-    @Description("Latitude")
+    @Description("维度，小数点后不得超过6位")
     val lat: Double,
-    @Description("Longitude")
+    @Description("经度，小数点后不得超过6位")
     val lng: Double
 ) : ParamValue {
     override fun toParamValue(): String {
@@ -20,9 +20,9 @@ data class GeoLocation(
 
 @Serializable
 data class MapSize(
-    @Description("Width")
+    @Description("宽度")
     val width: Int,
-    @Description("Height")
+    @Description("高度")
     val height: Int
 ) : ParamValue {
     override fun toParamValue(): String {
@@ -74,7 +74,7 @@ interface Style : ParamValue
 
 @Serializable
 data class MarkerStyle(
-    @Description("可选值： small,mid,large")
+    @Description("可选值：small,mid,large")
     val size: MarkerSize,
     @Description("[0-9]、[A-Z]、[单个中文字]")
     val label: String? = null,
@@ -116,13 +116,13 @@ data class Markers(val markersGroups: List<MarkersGroup> = listOf()) : ParamValu
 
 @Serializable
 data class PathStyle(
-    @Description("线条粗细。可选值： [2,15]")
+    @Description("线条粗细。可选值：[2,15]。")
     val weight: Int = 5,
-    @Description("折线颜色。 选值范围：[0x000000, 0xffffff]")
+    @Description("折线颜色。格式为0xRRGGBB。选值范围：[0x000000, 0xffffff]。")
     val color: String = "0x0000FF",
     @Description("透明度。可选值[0,1]，小数后最多2位，0表示完全透明，1表示完全不透明。")
     val transparency: Float = 1.0f,
-    @Description("多边形的填充颜色，此值不为空时折线封闭成多边形。取值规则同color")
+    @Description("多边形的填充颜色，此值不为空时折线封闭成多边形。格式为0xRRGGBB。取值规则同color。")
     val fillcolor: String? = null,
     @Description("填充面透明度。可选值[0,1]，小数后最多2位，0表示完全透明，1表示完全不透明。")
     val fillTransparency: Float = 0.5f,
@@ -187,9 +187,9 @@ data class LabelStyle(
     val bold: BoldMode = BoldMode.OFF,
     @Description("字体大小，可选值[1,72]")
     val fontSize: Int = 10,
-    @Description("字体颜色，取值范围：[0x000000, 0xffffff]")
+    @Description("字体颜色，格式为0xRRGGBB。取值范围：[0x000000, 0xffffff]")
     val fontColor: String = "0xFFFFFF",
-    @Description("背景色，取值范围：[0x000000, 0xffffff]")
+    @Description("背景色，格式为0xRRGGBB。取值范围：[0x000000, 0xffffff]")
     val background: String = "0x5288d8",
 ) : Style {
     override fun toParamValue(): String {

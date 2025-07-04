@@ -68,6 +68,66 @@ object McpServer {
         }
 
         server.addTool(
+            name = "poiSearchAround",
+            description = """
+            设置圆心和半径，搜索圆形区域内的地点信息
+        """.trimIndent(),
+            inputSchema = toToolInput<PoiAroundSearchRequest>()
+        ) { request ->
+            val params = fromToolParameters<PoiAroundSearchRequest>(request.arguments)
+            val result = ApiInvoker.get(params)
+            CallToolResult(content = listOf(TextContent(result)))
+        }
+
+        server.addTool(
+            name = "poiSearchByPolygon",
+            description = """
+            设置首尾连接的几何点组成多边形区域，搜索坐标对应多边形内的地点信息
+        """.trimIndent(),
+            inputSchema = toToolInput<PoiPolygonSearchRequest>()
+        ) { request ->
+            val params = fromToolParameters<PoiPolygonSearchRequest>(request.arguments)
+            val result = ApiInvoker.get(params)
+            CallToolResult(content = listOf(TextContent(result)))
+        }
+
+        server.addTool(
+            name = "poiSearchById",
+            description = """
+            通过已知的地点 ID（POI ID）搜索对应地点信息
+        """.trimIndent(),
+            inputSchema = toToolInput<PoiDetailSearchRequest>()
+        ) { request ->
+            val params = fromToolParameters<PoiDetailSearchRequest>(request.arguments)
+            val result = ApiInvoker.get(params)
+            CallToolResult(content = listOf(TextContent(result)))
+        }
+
+        server.addTool(
+            name = "inputTips",
+            description = """
+            根据用户输入的关键词查询返回建议列表
+        """.trimIndent(),
+            inputSchema = toToolInput<InputTipsRequest>()
+        ) { request ->
+            val params = fromToolParameters<InputTipsRequest>(request.arguments)
+            val result = ApiInvoker.get(params)
+            CallToolResult(content = listOf(TextContent(result)))
+        }
+
+        server.addTool(
+            name = "coordinateCovert",
+            description = """
+            将用户输入的非高德坐标（GPS 坐标、mapbar 坐标、baidu 坐标）转换成高德坐标
+        """.trimIndent(),
+            inputSchema = toToolInput<CoordinateCovertRequest>()
+        ) { request ->
+            val params = fromToolParameters<CoordinateCovertRequest>(request.arguments)
+            val result = ApiInvoker.get(params)
+            CallToolResult(content = listOf(TextContent(result)))
+        }
+
+        server.addTool(
             name = "getWeather",
             description = """
             根据用户输入的 adcode，查询目标区域当前/未来的天气情况
@@ -75,6 +135,66 @@ object McpServer {
             inputSchema = toToolInput<GetWeatherRequest>()
         ) { request ->
             val params = fromToolParameters<GetWeatherRequest>(request.arguments)
+            val result = ApiInvoker.get(params)
+            CallToolResult(content = listOf(TextContent(result)))
+        }
+
+        server.addTool(
+            name = "drivingRoutePlan",
+            description = """
+            根据起终点坐标检索符合条件的驾车路线规划方案，支持一次请求返回多条路线结果、支持传入多个途经点、支持传入车牌规避限行、支持根据不同业务场景设置不同的算路策略等
+        """.trimIndent(),
+            inputSchema = toToolInput<DrivingRoutePlanRequest>()
+        ) { request ->
+            val params = fromToolParameters<DrivingRoutePlanRequest>(request.arguments)
+            val result = ApiInvoker.get(params)
+            CallToolResult(content = listOf(TextContent(result)))
+        }
+
+        server.addTool(
+            name = "walkingRoutePlan",
+            description = """
+            根据起终点坐标检索符合条件的步行路线规划方案
+        """.trimIndent(),
+            inputSchema = toToolInput<WalkingRoutePlanRequest>()
+        ) { request ->
+            val params = fromToolParameters<WalkingRoutePlanRequest>(request.arguments)
+            val result = ApiInvoker.get(params)
+            CallToolResult(content = listOf(TextContent(result)))
+        }
+
+        server.addTool(
+            name = "bicyclingRoutePlan",
+            description = """
+            根据起终点坐标检索符合条件的骑行路线规划方案
+        """.trimIndent(),
+            inputSchema = toToolInput<BicyclingRoutePlanRequest>()
+        ) { request ->
+            val params = fromToolParameters<BicyclingRoutePlanRequest>(request.arguments)
+            val result = ApiInvoker.get(params)
+            CallToolResult(content = listOf(TextContent(result)))
+        }
+
+        server.addTool(
+            name = "electrobikeRoutePlan",
+            description = """
+            根据起终点坐标检索符合条件的电动车路线规划方案，与骑行略有不同的是会考虑限行等条件
+        """.trimIndent(),
+            inputSchema = toToolInput<ElectrobikeRoutePlanRequest>()
+        ) { request ->
+            val params = fromToolParameters<ElectrobikeRoutePlanRequest>(request.arguments)
+            val result = ApiInvoker.get(params)
+            CallToolResult(content = listOf(TextContent(result)))
+        }
+
+        server.addTool(
+            name = "busRoutePlan",
+            description = """
+            根据起终点坐标检索符合条件的公共交通路线规划方案，支持结合业务场景设置不同的公交换乘策略
+        """.trimIndent(),
+            inputSchema = toToolInput<BusRoutePlanRequest>()
+        ) { request ->
+            val params = fromToolParameters<BusRoutePlanRequest>(request.arguments)
             val result = ApiInvoker.get(params)
             CallToolResult(content = listOf(TextContent(result)))
         }

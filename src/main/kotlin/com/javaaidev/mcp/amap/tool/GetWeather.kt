@@ -19,7 +19,10 @@ data class GetWeatherRequest(
 ) : ApiRequest {
     override fun apiSubPaths() = listOf("v3", "weather", "weatherInfo")
 
-    override fun params(): Map<String, String> {
-        return mapOf("city" to city, "extensions" to (extensions ?: ""))
+    override fun params(): Map<String, Any?> {
+        return mapOf(
+            "city" to city,
+            "extensions" to extensions,
+        )
     }
 }

@@ -11,7 +11,7 @@ data class IpRequest(
 ) : ApiRequest {
     override fun apiSubPaths() = listOf("v3", "ip")
 
-    override fun params(): Map<String, String> {
+    override fun params(): Map<String, Any?> {
         return mapOf("ip" to ip)
     }
 }
