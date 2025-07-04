@@ -14,7 +14,7 @@ application {
 
 
 group = "com.javaaidev"
-version = "0.1.0"
+version = "0.2.0"
 
 val mcpVersion = "0.5.0"
 val slf4jVersion = "2.0.17"
@@ -73,7 +73,7 @@ buildscript {
     }
 }
 
-tasks.register("generateConfig") {
+tasks.register("generateReflectConfig") {
     doLast {
         val runtimeClasspath = project.configurations.getByName("runtimeClasspath").resolve()
             .map { it.absolutePath }
@@ -122,5 +122,5 @@ tasks.register("generateConfig") {
 }
 
 tasks.named("build") {
-    dependsOn("generateConfig")
+    dependsOn("generateReflectConfig")
 }
