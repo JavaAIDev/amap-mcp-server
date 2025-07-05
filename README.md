@@ -22,3 +22,23 @@ releases:
 - JAR file, requires Java 11 to run
 - Native executable files on Windows, macOS and Linux.
 
+Amap API key is required. This key must be set as the environment variable `AMAP_API_KEY`.
+
+Below is the config to start the server.
+
+```json
+{
+  "mcpServers": {
+    "amap": {
+      "command": "java",
+      "args": [
+        "-jar",
+        "amap-mcp-server.jar"
+      ],
+      "env": {
+        "AMAP_API_KEY": "YOUR_AMAP_API_KEY"
+      }
+    }
+  }
+}
+```
