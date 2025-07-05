@@ -2,7 +2,7 @@
 
 MCP Server for [Amap](https://lbs.amap.com/).
 
-Tools available:
+## Tools available
 
 - [IP定位](https://lbs.amap.com/api/webservice/guide/api/ipconfig)
 - [地理/逆地理编码](https://lbs.amap.com/api/webservice/guide/api/georegeo)
@@ -13,3 +13,12 @@ Tools available:
 - [路径规划 2.0](https://lbs.amap.com/api/webservice/guide/api/newroute)
 - [坐标转换](https://lbs.amap.com/api/webservice/guide/api/convert)
 - [输入提示](https://lbs.amap.com/api/webservice/guide/api-advanced/inputtips)
+
+## How to use
+
+Go to [releases](https://github.com/JavaAIDev/amap-mcp-server/releases) page and download latest
+releases:
+
+- JAR file, requires Java 11 to run
+- Native executable files on Windows, macOS and Linux.
+
