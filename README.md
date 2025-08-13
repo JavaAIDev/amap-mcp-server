@@ -1,6 +1,8 @@
-# Amap MCP Server
+# Amap MCP Server （高德地图 MCP 服务器）
 
 MCP Server for [Amap](https://lbs.amap.com/).
+
+使用 Kotlin 开发的高德地图 MCP 服务器。
 
 ## Tools available
 
