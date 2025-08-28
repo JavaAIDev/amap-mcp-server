@@ -32,13 +32,18 @@ jobs:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: get docker image tag
+        id: get-tag
+        run: echo "TAG=$(echo ${{ github.event.release.name }} | cut -c2-)" >> $GITHUB_ENV
+
       - name: Extract metadata (tags, labels) for Docker
         id: meta
         uses: docker/metadata-action@v5
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: |
-            type=raw,value=${{ github.event.release.name }}
+            type=raw,value=$TAG
             type=raw,value=latest
       - name: Build and push Docker image
         id: push
