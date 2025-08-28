@@ -8,7 +8,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: alexcheng1982/amap-mcp-server
+  IMAGE_NAME: JavaAIDev/amap-mcp-server
 
 jobs:
   push-image:
