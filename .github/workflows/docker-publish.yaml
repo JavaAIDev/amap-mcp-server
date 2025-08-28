@@ -38,7 +38,7 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: |
-            type=raw,value=${{ startsWith(github.event.release.name, 'v') && substring(github.event.release.name, 1, length(github.event.release.name)) || github.event.release.name }}
+            type=raw,value=${{ replace(github.event.release.name, '^v', '') }}
             type=raw,value=latest
       - name: Build and push Docker image
         id: push
