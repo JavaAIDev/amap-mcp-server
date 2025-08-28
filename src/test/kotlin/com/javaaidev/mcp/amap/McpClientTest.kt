@@ -17,7 +17,7 @@ class McpClientTest {
     @Test
     fun testRunClient() {
         runBlocking {
-            val process = ProcessBuilder("java", "-jar", "build/libs/amap-mcp-server-0.3.0-all.jar")
+            val process = ProcessBuilder("java", "-jar", "build/libs/amap-mcp-server-0.4.0-all.jar")
                 .start()
 
             val transport = StdioClientTransport(
