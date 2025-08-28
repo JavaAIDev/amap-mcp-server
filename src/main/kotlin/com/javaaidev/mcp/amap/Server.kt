@@ -2,6 +2,7 @@ package com.javaaidev.mcp.amap
 
 import com.javaaidev.mcp.amap.api.ApiInvoker
 import com.javaaidev.mcp.amap.api.fromToolParameters
+import com.javaaidev.mcp.amap.api.getApiKey
 import com.javaaidev.mcp.amap.api.toToolInput
 import com.javaaidev.mcp.amap.tool.*
 import io.ktor.utils.io.streams.*
@@ -16,6 +17,7 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.runBlocking
 import kotlinx.io.asSink
 import kotlinx.io.buffered
+import kotlin.system.exitProcess
 
 object McpServer {
     fun start() {
@@ -255,5 +257,12 @@ object McpServer {
 }
 
 fun main() {
+    try {
+        getApiKey()
+    } catch (e: Exception) {
+        System.err.print(e.message)
+        exitProcess(1)
+    }
+
     McpServer.start()
 }
