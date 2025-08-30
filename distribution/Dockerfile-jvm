@@ -2,4 +2,4 @@ FROM eclipse-temurin:11.0.28_6-jre-noble
 
 ADD ./build/libs/amap-mcp-server-*-all.jar /opt/app.jar
 
-CMD ["java", "-jar", "/opt/app.jar"]
+ENTRYPOINT ["java", "-jar", "/opt/app.jar"]
