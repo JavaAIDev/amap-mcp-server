@@ -1,8 +1,8 @@
 import io.github.classgraph.ClassGraph
 
 plugins {
-    kotlin("jvm") version "2.2.0"
-    kotlin("plugin.serialization") version "2.2.0"
+    kotlin("jvm") version "2.2.20"
+    kotlin("plugin.serialization") version "2.2.20"
     id("com.github.johnrengelman.shadow") version "8.1.1"
     id("org.graalvm.buildtools.native") version "0.10.6"
     application
@@ -14,12 +14,12 @@ application {
 
 
 group = "com.javaaidev"
-version = "0.5.0"
+version = "0.6.0"
 
-val mcpVersion = "0.6.0"
+val mcpVersion = "0.7.2"
 val slf4jVersion = "2.0.17"
 val logbackVersion = "1.5.18"
-val ktorVersion = "3.1.1"
+val ktorVersion = "3.3.1"
 val schemaKeneratorVersion = "2.1.4"
 
 dependencies {

@@ -1,8 +1,8 @@
 # Amap MCP Server （高德地图 MCP 服务器）
 
-MCP Server for [Amap](https://lbs.amap.com/).
+MCP Server for [Amap](https://lbs.amap.com/)
 
-使用 Kotlin 开发的高德地图 MCP 服务器。
+使用 Kotlin 开发的高德地图 MCP 服务器
 
 ## Tools available
 
@@ -18,8 +18,7 @@ MCP Server for [Amap](https://lbs.amap.com/).
 
 ## How to use
 
-Go to [releases](https://github.com/JavaAIDev/amap-mcp-server/releases) page and download latest
-releases:
+Go to [releases](https://github.com/JavaAIDev/amap-mcp-server/releases) page and download latest releases:
 
 - JAR file, requires Java 11 to run
 - Native executable files on Windows, macOS and Linux.
