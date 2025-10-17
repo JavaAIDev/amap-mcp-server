@@ -27,7 +27,11 @@ object McpServer {
                 version = "1.0.0"
             ),
             ServerOptions(
-                capabilities = ServerCapabilities(tools = ServerCapabilities.Tools(listChanged = true))
+                capabilities = ServerCapabilities(
+                    tools = ServerCapabilities.Tools(listChanged = true),
+                    experimental = null,
+                    logging = null,
+                )
             )
         )
 

@@ -23,9 +23,11 @@ Go to [releases](https://github.com/JavaAIDev/amap-mcp-server/releases) page and
 - JAR file, requires Java 11 to run
 - Native executable files on Windows, macOS and Linux.
 
+Or use the [container image](https://github.com/JavaAIDev/amap-mcp-server/pkgs/container/amap-mcp-server).
+
 Amap API key is required. This key must be set as the environment variable `AMAP_API_KEY`.
 
-Below is the config to start the server.
+Below is the config to start the server using `java`.
 
 ```json
 {
@@ -39,6 +41,25 @@ Below is the config to start the server.
       "env": {
         "AMAP_API_KEY": "YOUR_AMAP_API_KEY"
       }
+    }
+  }
+}
+```
+
+The config below starts the server using a container image.
+
+```json
+{
+  "mcpServers": {
+    "amap": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "-e",
+        "AMAP_API_KEY=YOUR_AMAP_API_KEY",
+        "ghcr.io/javaaidev/amap-mcp-server:0.7.0"
+      ]
     }
   }
 }
