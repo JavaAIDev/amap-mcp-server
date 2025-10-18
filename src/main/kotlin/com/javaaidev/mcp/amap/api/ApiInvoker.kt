@@ -46,21 +46,28 @@ inline fun <reified T> fromToolParameters(parameters: JsonObject): T {
 fun getApiKey() = System.getenv("AMAP_API_KEY") ?: throw RuntimeException("API key is required")
 
 suspend fun HttpClient.amapApiGet(request: ApiRequest): String {
-    return get {
-        url {
-            protocol = URLProtocol.HTTPS
-            host = "restapi.amap.com"
-            appendPathSegments(request.apiSubPaths())
-            parameters.append("key", getApiKey())
-            parameters.append("output", "JSON")
-            request.params()
-                .mapValues { ParamValueUtils.getParamValue(it.value) }
-                .filterValues { it.isNotBlank() }
-                .forEach { (key, value) ->
-                    parameters.append(key, value)
-                }
-        }
-    }.bodyAsText()
+    try {
+        return get {
+            url {
+                protocol = URLProtocol.HTTPS
+                host = "restapi.amap.com"
+                appendPathSegments(request.apiSubPaths())
+                parameters.append("key", getApiKey())
+                parameters.append("output", "JSON")
+                request.params()
+                    .mapValues { ParamValueUtils.getParamValue(it.value) }
+                    .filterValues { it.isNotBlank() }
+                    .forEach { (key, value) ->
+                        parameters.append(key, value)
+                    }
+            }
+            expectSuccess = false
+        }.bodyAsText()
+    } catch (e: ResponseException) {
+        return e.response.bodyAsText()
+    } catch (e: Exception) {
+        return "Internal error: ${e.message}"
+    }
 }
 
 object ApiInvoker {
