@@ -14,7 +14,7 @@ application {
 
 
 group = "com.javaaidev"
-version = "0.7.1"
+version = "0.8.0"
 
 val mcpVersion = "0.7.4"
 val slf4jVersion = "2.0.17"

@@ -24,7 +24,7 @@ class McpClientTest {
             try {
                 withTimeout(1.minutes) {
                     val process =
-                        ProcessBuilder("java", "-jar", "build/libs/amap-mcp-server-0.7.1-all.jar")
+                        ProcessBuilder("java", "-jar", "build/libs/amap-mcp-server-0.8.0-all.jar")
                             .start()
 
                     val transport = StdioClientTransport(

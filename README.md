@@ -58,7 +58,7 @@ The config below starts the server using a container image.
         "-i",
         "-e",
         "AMAP_API_KEY=YOUR_AMAP_API_KEY",
-        "ghcr.io/javaaidev/amap-mcp-server:0.7.1"
+        "ghcr.io/javaaidev/amap-mcp-server:0.8.0"
       ]
     }
   }
