@@ -14,7 +14,7 @@ application {
 
 
 group = "com.javaaidev"
-version = "0.8.0"
+version = "0.9.0"
 
 val mcpVersion = "0.7.4"
 val slf4jVersion = "2.0.17"
@@ -26,6 +26,7 @@ dependencies {
     implementation("io.modelcontextprotocol:kotlin-sdk:$mcpVersion")
     implementation("org.slf4j:slf4j-api:$slf4jVersion")
     implementation("ch.qos.logback:logback-classic:$logbackVersion")
+    implementation("io.ktor:ktor-client-cio:$ktorVersion")
     implementation("io.ktor:ktor-client-content-negotiation:$ktorVersion")
     implementation("io.ktor:ktor-serialization-kotlinx-json:$ktorVersion")
     implementation("io.github.smiley4:schema-kenerator-core:$schemaKeneratorVersion")
