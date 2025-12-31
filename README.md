@@ -46,6 +46,24 @@ Below is the config to start the server using `java`.
 }
 ```
 
+It's better to use [jbang](https://www.jbang.dev/) to run a JAR file.
+
+```json
+{
+  "mcpServers": {
+    "amap": {
+      "command": "jbang",
+      "args": [
+        "https://github.com/JavaAIDev/amap-mcp-server/releases/download/v0.9.0/amap-mcp-server.jar"
+      ],
+      "env": {
+        "AMAP_API_KEY": "YOUR_AMAP_API_KEY"
+      }
+    }
+  }
+}
+```
+
 The config below starts the server using a container image.
 
 ```json
